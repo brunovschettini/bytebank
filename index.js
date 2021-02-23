@@ -15,5 +15,5 @@ cliente1.cpf = 32487178825;
 cliente1.agencia = 1001;
 cliente1.saldo = 0;
 
-console.log(cliente1);
+console.log(cliente1.nome);
 
