@@ -4,24 +4,15 @@ import {ContaCorrente} from "./ContaCorrente.js";
 let valor = 200;
 
 // CLIENTE 1
-const cliente1 = new Cliente();
-cliente1.nome = 'Cliente 1';
-cliente1.cpf = 99999999999;
+const cliente1 = new Cliente('Cliente 1', 99999999999);
 
-const contaCliente1 = new ContaCorrente();
-contaCliente1.agencia = 1001;
-contaCliente1.cliente = cliente1;
+const contaCliente1 = new ContaCorrente(1001, cliente1);
 
 contaCliente1.depositar(500);
 
 // CLIENTE 2
-const cliente2 = new Cliente();
-cliente2.nome = 'Cliente 2';
-cliente2.cpf = 88888888888;
-
-const contaCliente2 = new ContaCorrente();
-contaCliente2.agencia = 1002;
-contaCliente2.cliente = cliente2;
+const cliente2 = new Cliente('Cliente 2', 88888888888);
+const contaCliente2 = new ContaCorrente(1002, cliente2);
 
 
 // CLIENTES ANTES DO SAQUE 
