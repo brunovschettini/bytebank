@@ -30,5 +30,6 @@ console.log(contaCliente1);
 console.log(``);
 console.log(contaCliente2);
 console.log("valor: ", valor);
+console.log("Número de contas: ", contaCliente1.numeroDeContas);
 
 
